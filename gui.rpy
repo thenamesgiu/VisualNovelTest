@@ -1,28 +1,9 @@
-﻿################################################################################
-## Initialization
-################################################################################
-
-## The init offset statement causes the initialization statements in this file
-## to run before init statements in any other file.
+﻿
 init offset = -2
 
-## Calling gui.init resets the styles to sensible default values, and sets the
-## width and height of the game.
 init python:
     gui.init(1280, 720)
 
-
-
-################################################################################
-## GUI Configuration Variables
-################################################################################
-
-
-## Colors ######################################################################
-##
-## The colors of text in the interface.
-
-## An accent color used throughout the interface to label and highlight text.
 define gui.accent_color = u'#00cc99'
 
 ## The color used for a text button when it is neither selected nor hovered.
@@ -85,7 +66,7 @@ define gui.title_text_size = 50
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu.png"
+define gui.main_menu_background = "gui/menuassetnight.jpg"
 define gui.game_menu_background = "gui/game_menu.png"
 
 

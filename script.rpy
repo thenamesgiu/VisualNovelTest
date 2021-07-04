@@ -15,7 +15,7 @@ label start:
         
             "I shouldn't disturb him today":
                 e "Nah, I'll just stay here."
-                    
+                return
             "Why not?":
                 
                   hide girl normal standing
@@ -28,6 +28,8 @@ label start:
         
     label meet: #label with consequences for the first choice
        
+       play music bgMusictest fadein 1.0 fadeout 1.0
+       queue music bgOther
        scene bg rooftop 
                
        hide girl standing excited
@@ -38,6 +40,7 @@ label start:
         
        e "Hello Leo"   
        b "Hello Kat"
+       
 
     # This ends the game.
 
